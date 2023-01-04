@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+	<web-app
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+		<display-name>Pagejsp</display-name>
+		<servlet>
+			<servlet-name>first</servlet-name>
+			<jsp-file>first.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>first</servlet-name>
+			<url-pattern>first</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>second</servlet-name>
+			<jsp-file>second.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>second</servlet-name>
+			<url-pattern>second</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>third</servlet-name>
+			<jsp-file>third.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>third</servlet-name>
+			<url-pattern>third</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>error</servlet-name>
+			<jsp-file>error.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>error</servlet-name>
+			<url-pattern>error</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>Fourth</servlet-name>
+			<jsp-file>Fourth.jsp</jsp-file>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>Fourth</servlet-name>
+			<url-pattern>Fourth</url-pattern>
+		</servlet-mapping>
+		<welcome-file-list>
+			<welcome-file>first.jsp</welcome-file>
+		</welcome-file-list>
+	</web-app>
+<web-app
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4" id="WebApp_ID">
+	<display-name>Pagejsp</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
+</element>
